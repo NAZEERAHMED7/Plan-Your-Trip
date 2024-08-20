@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: grid;
+    background-color: black;
+}
+.h-image{
+    justify-items: start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.h-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+.h-nav{
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 2;   
+}
+.h-nav ul{
+    display: flex;   
+}
+.h-nav ul li{
+    list-style-type: none;
+    margin: 0px 40px 0px 40px;
+}
+.h-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+a:visited a:hover a:active{
+    color: red;
+}
+.h-button{
+    justify-self: end;
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.h-button input {
+    margin:10px;
+}
+.h-button button{
+    margin: 0px 40px 0px 40px;
+}
+/* main */
+.main{
+    margin: 0px;
+    padding: 0px;
+}
+.calander{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:cadetblue;
+}
+.aside{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    background-color: #ffff;
+ }
+ .aside img{
+    width: 100px;
+ }
+.content{
+    padding:30px;
+    background-color:black;
+    color:#ffff;
+}
+.content p{
+    padding: 20px;
+    color:crimson;
+}
+.content b{
+    padding: 20px;
+    color:cornflowerblue;
+}
+.content input{
+    padding:10px;
+}
+.link{
+    background-color:#f0f0f0;
+    color:black;
+    padding:50px;
+}
+.link p{
+    padding:0px 0px 20px 0px;
+}
+.link ul{
+    list-style: none;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.link a{
+    text-decoration: none;
+}
+.pay{
+    margin:10px;
+    padding:10px;
+    background-color:cadetblue;
+}
+.pay a{
+    text-decoration: none;
+    padding:50%;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+}
+.footer{
+    
+   display: flex;
+    color: #ffff;
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+}
+.f-hed{
+    margin:25px;
+    text-align: center;
+}
+.f-hed-1 a{
+    text-decoration: none;
+    margin: 50px;
+    color:burlywood;
+}
+.f-lists-1{
+    justify-content: center;
+}
+.f-lists-1 b{
+    padding:0px 20px 0px 0px;
+}
+.f-lists-1 li{
+list-style: none;
+    padding:0px 20px 0px 0px;
+}
+.f-lists-1 a{
+    /* padding:0px 20px 0px 0px; */
+    text-decoration: none;
+    color:burlywood;
+}
+.f-copyrights{
+    padding:50px;
+    color: antiquewhite;
+    text-align: center;
+}

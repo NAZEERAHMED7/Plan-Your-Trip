@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: grid;
+    background-color: black;
+}
+.h-image{
+    justify-items: start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.h-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+.h-nav{
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 2;   
+}
+.h-nav ul{
+    display: flex;   
+}
+.h-nav ul li{
+    list-style-type: none;
+    margin: 0px 40px 0px 40px;
+}
+.h-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+a:visited a:hover a:active{
+    color: red;
+}
+.h-button{
+    justify-self: end;
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.h-button input {
+    margin:10px;
+}
+.h-button button{
+    margin: 0px 40px 0px 40px;
+}
+.banner-1{
+    width: 100%;
+    height: 900px;
+    background-image: url(../src/Plan\ Your\ Trip.png);
+    background-size: cover;
+}
+.m-h1{
+    padding:10px;
+}
+/* main */
+.main{
+    margin: 0px;
+    padding: 0px;
+    background-color: cadetblue;
+}
+.details{
+    margin: 10px;
+    padding: 10px;
+}
+.details h2 {
+    padding: 10px;
+}
+.details b p{
+    padding: 10px;
+}
+.details p{
+    padding: 10px;
+}
+.form{
+    padding: 10px;
+    margin: 10px;
+}
+.form input{
+    height:50px;
+    width: 10%;
+}
+.content{
+    padding:10px;
+    margin:10px;
+}
+.content b{
+    padding:10px;
+    margin: 10px;
+}
+.content input{
+    padding:10px;
+    margin:30px;
+}
+.content p{
+    padding:0px;
+    margin:30px;
+}
+.form-1{
+    padding-left:10px;
+    background-color: burlywood;
+}
+.button{
+    padding-left:20px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:black;
+}
+.footer{
+    
+   display: flex;
+    color: #ffff;
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+}
+.f-hed{
+    margin:25px;
+    text-align: center;
+}
+.f-hed-1 a{
+    text-decoration: none;
+    margin: 50px;
+    color:burlywood;
+}
+.f-lists-1{
+    justify-content: center;
+}
+.f-lists-1 b{
+    padding:0px 20px 0px 0px;
+}
+.f-lists-1 li{
+list-style: none;
+    padding:0px 20px 0px 0px;
+}
+.f-lists-1 a{
+    /* padding:0px 20px 0px 0px; */
+    text-decoration: none;
+    color:burlywood;
+}
+.f-copyrights{
+    padding:50px;
+    color: antiquewhite;
+    text-align: center;
+}
